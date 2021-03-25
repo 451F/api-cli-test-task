@@ -1,0 +1,23 @@
+{
+    "name": "max/api-cli",
+    "description": "Test task",
+    "type": "project",
+    "require": {
+        "splitbrain/php-cli": "^1.1",
+        "rmccue/requests": "^1.7",
+        "ext-pdo": "*"
+    },
+    "authors": [
+        {
+            "name": "Maxim Dyn",
+            "email": "max451f@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Command\\": "Command",
+            "Model\\": "Model",
+            "Service\\": "Service"
+        }
+    }
+}
